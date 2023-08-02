@@ -1,6 +1,6 @@
 {
   "name": "create-user-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a next.js user application with a single command",
   "license": "MIT",
   "main": "index.js",
@@ -28,8 +28,8 @@
     "dev": "tsup --watch",
     "clean": "rm -rf dist",
     "start": "node dist/index.js",
-    "pub:beta": "npm publish --tag beta",
-    "pub:latest": "npm publish"
+    "pub:beta": "pnpm build && npm publish --tag beta",
+    "pub:latest": "pnpm build && npm publish"
   },
   "devDependencies": {
     "@types/node": "^20.4.6",
