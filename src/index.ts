@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { logger } from './utils/logger.js';
+import { logger } from '@/utils/logger.js';
 
 const main = async () => {
   logger.info('Hello World! Create-User-App is alive!');

@@ -8,6 +8,11 @@
     "resolveJsonModule": true,
     "allowJs": false,
 
+    //
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
     /* EMIT RULES */
     "outDir": "./dist",
     "noEmit": true, // TSUP takes care of emitting js for us, in a MUCH faster way
@@ -43,5 +48,6 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "useDefineForClassFields": true
-  }
+  },
+  "include": ["src", "tsup.config.ts"]
 }
