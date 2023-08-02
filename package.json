@@ -1,6 +1,6 @@
 {
   "name": "create-user-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create a next.js user application with a single command",
   "license": "MIT",
   "main": "index.js",
